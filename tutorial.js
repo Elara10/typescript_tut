@@ -2,7 +2,11 @@
 // let id:number=5;
 // let company:string="ABC";
 // let isPublished:boolean=true;
-const signContract = (employee) => {
-    console.log("Contract signed by  " + employee.name + " with email: " + employee.email);
+const employee = {
+    employeeId: 1,
+    startDate: new Date(),
+    name: "abc",
+    department: "Finance",
 };
-signContract({ name: "dfvf", creditScore: 500, id: 6, email: "dfvf@gmail.com" });
+employee.name = "qwe";
+console.log(employee);
